@@ -1,0 +1,15 @@
+.hero {
+    position: relative;
+}
+
+.hero-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-family: 'Jua';
+    color: #474747;
+}
