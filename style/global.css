@@ -23,3 +23,29 @@
 .t-a-c {
     text-align: center;
 }
+
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-bottom: 40px;
+    font-family: 'Jua';
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.paragraph-mini {
+    font-size: 15px;
+    line-height: 1.4em;
+}
+
+.p-b-1 {
+    padding-bottom: 1em;
+}
+
+.p-b-2 {
+    padding-bottom: 2em;
+}
