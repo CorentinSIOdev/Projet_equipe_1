@@ -1,7 +1,36 @@
 .w-50 {
-    width: 10% !important;    
+    width: 50% !important;    
 }
 
 .img {
     max-width: 100%;
+}
+
+.presentation-wrapper {
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.presentation-col {
+    margin: 1em;
+}
+
+.presentation-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.presentation-subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.presentation-paragraph {
+    font-size: 18px;
+    line-height: 1.6em;
 }
