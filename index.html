@@ -3,31 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/index.css">
     <title>Accueil</title>
 </head>
 <body>
     <header>
-        <div class="logoName">
-            <a href="/">Gourmet au Catering</a>
-        </div>
-        <div>
-            <nav class="nav">
-                <ul>
-                    <li>
-                        <a href="/about">About</a>
-                    </li>
-                    <li>
-                        <a href="/menu">Menu</a>
-                    </li>
-                    <li>
-                        <a href="/contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo"><a href="/">Gourmet au Catering</a></div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="#presentation">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
     </header>
     <section>
        <div>
@@ -47,7 +41,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="menu">
         <h2>Our Menu</h2>
         <div>
             <div>
@@ -75,7 +69,7 @@
             <img src="/assets/images/tablesetting.jpg" alt="assiette poulet légumes">
         </div>
     </section>
-    <section>
+    <section id="contact">
         <h2>Contact</h2>
         <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
         <h5>Catering Service, 42nd Living St, 43043 New York, NY</h5>
