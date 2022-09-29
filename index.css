@@ -3,3 +3,19 @@
 * {
     font-family: 'Jua', sans-serif;
 }
+
+/*
+ Global
+*/
+
+.img {
+    width: 100%;
+}
+
+.w-50 {
+    width: 200px;
+}
+
+.presentation {
+    padding-top: 2em;
+}
